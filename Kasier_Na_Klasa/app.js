@@ -1,4 +1,6 @@
 const API_URL = "https://script.google.com/macros/s/AKfycbwxMD72v-_p_EWSxWRfE_fGGQoDesrpYdLPN_uTTt0RfpEHgxw7ARpj-yM8V7AUD74MYA/exec";
+//const API_URL = "https://script.google.com/macros/s/AKfycbwxMD72v-_p_EWSxWRfE_fGGQoDesrpYdLPN_uTTt0RfpEHgxw7ARpj-yM8V7AUD74MYA/exec";
+
 
 fetch(API_URL)
   .then(res => res.json())
@@ -30,3 +32,4 @@ function renderCards(data) {
     `;
   });
 }
+
